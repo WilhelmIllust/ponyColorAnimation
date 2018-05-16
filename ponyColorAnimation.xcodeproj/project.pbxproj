@@ -14,6 +14,7 @@
 		49A05C0420AC20B7000B5E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A05C0220AC20B7000B5E7D /* LaunchScreen.storyboard */; };
 		49A05C0F20AC20B7000B5E7D /* ponyColorAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A05C0E20AC20B7000B5E7D /* ponyColorAnimationTests.swift */; };
 		49A05C1A20AC20B7000B5E7D /* ponyColorAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A05C1920AC20B7000B5E7D /* ponyColorAnimationUITests.swift */; };
+		49A05C2C20AC2366000B5E7D /* pieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A05C2B20AC2366000B5E7D /* pieView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		49A05C1520AC20B7000B5E7D /* ponyColorAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ponyColorAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A05C1920AC20B7000B5E7D /* ponyColorAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ponyColorAnimationUITests.swift; sourceTree = "<group>"; };
 		49A05C1B20AC20B7000B5E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A05C2B20AC2366000B5E7D /* pieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pieView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				49A05C0020AC20B7000B5E7D /* Assets.xcassets */,
 				49A05C0220AC20B7000B5E7D /* LaunchScreen.storyboard */,
 				49A05C0520AC20B7000B5E7D /* Info.plist */,
+				49A05C2B20AC2366000B5E7D /* pieView.swift */,
 			);
 			path = ponyColorAnimation;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A05C2C20AC2366000B5E7D /* pieView.swift in Sources */,
 				49A05BFC20AC20B5000B5E7D /* ViewController.swift in Sources */,
 				49A05BFA20AC20B5000B5E7D /* AppDelegate.swift in Sources */,
 			);
